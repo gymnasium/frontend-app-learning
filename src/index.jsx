@@ -10,7 +10,7 @@ import ReactDOM from 'react-dom';
 
 import messages from './i18n';
 
-import { ErrorPage } from '@openedx/gym-frontend';
+import { ErrorPage } from '@openedx/gym-frontend/overrides/platform';
 import { Learning as App } from '@openedx/gym-frontend/overrides/learning';
 
 subscribe(APP_READY, () => {

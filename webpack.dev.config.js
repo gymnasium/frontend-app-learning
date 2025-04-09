@@ -7,7 +7,7 @@ config.resolve.alias = {
   ...config.resolve.alias,
   '@src': path.resolve(__dirname, 'src'),
   '@openedx/gym-frontend': path.resolve(__dirname, '@openedx/gym-frontend') || path.resolve(__dirname, 'node_modules/@openedx/gym-frontend'),
-  './ErrorBoundary': path.resolve(__dirname, '@openedx/gym-frontend/overrides/ErrorBoundary') || path.resolve(__dirname, 'node_modules/@openedx/gym-frontend/overrides/ErrorBoundary'),
+  './ErrorBoundary': path.resolve(__dirname, '@openedx/gym-frontend/overrides/platform/ErrorBoundary') || path.resolve(__dirname, 'node_modules/@openedx/gym-frontend/overrides/platform/ErrorBoundary'),
 };
 
 module.exports = config;
